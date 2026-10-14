@@ -1,0 +1,105 @@
+[gd_scene format=3 uid="uid://dwo7vnd6n8a4n"]
+
+[ext_resource type="Texture2D" uid="uid://7h270l65vmsb" path="res://Assets/Assets_Bee_Game/enemy/0000.png" id="1_lbl86"]
+[ext_resource type="Texture2D" uid="uid://dwpw3b817ggwd" path="res://Assets/Assets_Bee_Game/enemy/0001.png" id="2_lly7b"]
+[ext_resource type="Texture2D" uid="uid://deqrn7h1ny7f1" path="res://Assets/Assets_Bee_Game/enemy/0002.png" id="3_4lccv"]
+[ext_resource type="Texture2D" uid="uid://3j6agi2h7r45" path="res://Assets/Assets_Bee_Game/enemy/0003.png" id="4_qxto5"]
+[ext_resource type="Texture2D" uid="uid://bwkfm182se50e" path="res://Assets/Assets_Bee_Game/enemy/0004.png" id="5_gntka"]
+[ext_resource type="Texture2D" uid="uid://dnvhayh4wa20y" path="res://Assets/Assets_Bee_Game/enemy/0005.png" id="6_dkciv"]
+[ext_resource type="Texture2D" uid="uid://dq65lpkl5xh37" path="res://Assets/Assets_Bee_Game/enemy/0006.png" id="7_5q6x1"]
+[ext_resource type="Texture2D" uid="uid://d00bbpj3bjmgc" path="res://Assets/Assets_Bee_Game/enemy/0007.png" id="8_d5s2e"]
+[ext_resource type="Texture2D" uid="uid://k1yk4q32v53h" path="res://Assets/Assets_Bee_Game/enemy/0008.png" id="9_omgvj"]
+[ext_resource type="Texture2D" uid="uid://b3mma6vhx18r" path="res://Assets/Assets_Bee_Game/enemy/0009.png" id="10_ahr3j"]
+[ext_resource type="Texture2D" uid="uid://dc611u52gx0cw" path="res://Assets/Assets_Bee_Game/enemy/0010.png" id="11_g4cf8"]
+[ext_resource type="Texture2D" uid="uid://bge12eo1orpn4" path="res://Assets/Assets_Bee_Game/enemy/0011.png" id="12_hwane"]
+[ext_resource type="Texture2D" uid="uid://b8ckf7tji6sik" path="res://Assets/Assets_Bee_Game/enemy/0012.png" id="13_ojm0e"]
+[ext_resource type="Texture2D" uid="uid://cpvg5gno5kibw" path="res://Assets/Assets_Bee_Game/enemy/0013.png" id="14_hx43s"]
+[ext_resource type="Texture2D" uid="uid://bc5ihuv768nwc" path="res://Assets/Assets_Bee_Game/enemy/0014.png" id="15_1mc2y"]
+[ext_resource type="Texture2D" uid="uid://bakr6ogegw168" path="res://Assets/Assets_Bee_Game/enemy/0015.png" id="16_o774d"]
+[ext_resource type="Texture2D" uid="uid://cw6p6okpnn7ku" path="res://Assets/Assets_Bee_Game/enemy/0016.png" id="17_urwyg"]
+[ext_resource type="Texture2D" uid="uid://b8tac10y2nbav" path="res://Assets/Assets_Bee_Game/enemy/0017.png" id="18_bfopn"]
+[ext_resource type="Texture2D" uid="uid://b8p5rwtkv6nfx" path="res://Assets/Assets_Bee_Game/enemy/0018.png" id="19_oldvv"]
+[ext_resource type="Texture2D" uid="uid://x5wky1n55swu" path="res://Assets/Assets_Bee_Game/enemy/0019.png" id="20_hicp8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_x4vnt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_lbl86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_lly7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4lccv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qxto5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_gntka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_dkciv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_5q6x1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_d5s2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_omgvj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ahr3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_g4cf8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_hwane")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ojm0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_hx43s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_1mc2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_o774d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_urwyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bfopn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_oldvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_hicp8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_lbl86"]
+radius = 31.0
+height = 96.0
+
+[node name="Inimigo" type="Area2D" unique_id=266363617]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1440776068]
+sprite_frames = SubResource("SpriteFrames_x4vnt")
+frame_progress = 0.9040092
+offset = Vector2(-6, 20)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1805960298]
+position = Vector2(0, 21)
+shape = SubResource("CapsuleShape2D_lbl86")
