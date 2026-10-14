@@ -1,0 +1,107 @@
+[gd_scene format=3 uid="uid://c0p3rdaukxje8"]
+
+[ext_resource type="Texture2D" uid="uid://dy8wjoj1r3uyw" path="res://Assets/Assets_Bee_Game/player/0001.png" id="1_fs7ks"]
+[ext_resource type="Script" uid="uid://c6ppk2n55tixn" path="res://Scipts/player.gd" id="1_l6n3p"]
+[ext_resource type="Texture2D" uid="uid://burup3x7hg6ge" path="res://Assets/Assets_Bee_Game/player/0002.png" id="2_l6n3p"]
+[ext_resource type="Texture2D" uid="uid://c7wqiknpfhf6r" path="res://Assets/Assets_Bee_Game/player/0003.png" id="3_olqyp"]
+[ext_resource type="Texture2D" uid="uid://cfw5jqjnljx17" path="res://Assets/Assets_Bee_Game/player/0004.png" id="4_wpjfl"]
+[ext_resource type="Texture2D" uid="uid://b1pm5t6pxaff6" path="res://Assets/Assets_Bee_Game/player/0005.png" id="5_bi64h"]
+[ext_resource type="Texture2D" uid="uid://f511pivt1xk5" path="res://Assets/Assets_Bee_Game/player/0006.png" id="6_2ijsl"]
+[ext_resource type="Texture2D" uid="uid://dhfkqbtotyjyp" path="res://Assets/Assets_Bee_Game/player/0007.png" id="7_p1odr"]
+[ext_resource type="Texture2D" uid="uid://bqx4xl2qjvqr7" path="res://Assets/Assets_Bee_Game/player/0008.png" id="8_0gysh"]
+[ext_resource type="Texture2D" uid="uid://db7cv70gdwmns" path="res://Assets/Assets_Bee_Game/player/0009.png" id="9_vfarp"]
+[ext_resource type="Texture2D" uid="uid://b6mp6p313k1o0" path="res://Assets/Assets_Bee_Game/player/0010.png" id="10_y6uwr"]
+[ext_resource type="Texture2D" uid="uid://dhn5h07js3og2" path="res://Assets/Assets_Bee_Game/player/0011.png" id="11_83xs0"]
+[ext_resource type="Texture2D" uid="uid://dkwy5m5id0a72" path="res://Assets/Assets_Bee_Game/player/0012.png" id="12_ypfnu"]
+[ext_resource type="Texture2D" uid="uid://b16nk7jkalyiy" path="res://Assets/Assets_Bee_Game/player/0013.png" id="13_xuaoq"]
+[ext_resource type="Texture2D" uid="uid://wvubx2jj56dp" path="res://Assets/Assets_Bee_Game/player/0014.png" id="14_wohnl"]
+[ext_resource type="Texture2D" uid="uid://ducmiydxv4u2q" path="res://Assets/Assets_Bee_Game/player/0015.png" id="15_36dho"]
+[ext_resource type="Texture2D" uid="uid://u0btey5rxl5u" path="res://Assets/Assets_Bee_Game/player/0016.png" id="16_yh6i2"]
+[ext_resource type="Texture2D" uid="uid://c8ta6xcr4qwfl" path="res://Assets/Assets_Bee_Game/player/0017.png" id="17_nv4vc"]
+[ext_resource type="Texture2D" uid="uid://bgawu1cuvsr80" path="res://Assets/Assets_Bee_Game/player/0018.png" id="18_8gxox"]
+[ext_resource type="Texture2D" uid="uid://bvbtj41sfij1j" path="res://Assets/Assets_Bee_Game/player/0019.png" id="19_11gg7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v0iea"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_fs7ks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_l6n3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_olqyp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_wpjfl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_bi64h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_2ijsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_p1odr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_0gysh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_vfarp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_y6uwr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_83xs0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ypfnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xuaoq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_wohnl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_36dho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_yh6i2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_nv4vc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_8gxox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_11gg7")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fs7ks"]
+radius = 17.0
+height = 34.0
+
+[node name="Player" type="CharacterBody2D" unique_id=758258500]
+script = ExtResource("1_l6n3p")
+
+[node name="AnimationPlayer" type="AnimatedSprite2D" parent="." unique_id=1058815452]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_v0iea")
+autoplay = "default"
+frame_progress = 0.7296832
+offset = Vector2(-6, 0)
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=452153341]
+shape = SubResource("CapsuleShape2D_fs7ks")
+debug_color = Color(1, 0, 0.24705882, 0.41960785)
+metadata/_edit_lock_ = true

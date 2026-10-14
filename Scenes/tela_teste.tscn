@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://btgoekc7vrdv4"]
+
+[ext_resource type="PackedScene" uid="uid://c0p3rdaukxje8" path="res://Scenes/player.tscn" id="1_ksgo8"]
+
+[node name="TelaTeste" type="Node2D" unique_id=500254630]
+
+[node name="Player" parent="." unique_id=758258500 instance=ExtResource("1_ksgo8")]
+position = Vector2(253, 526)
