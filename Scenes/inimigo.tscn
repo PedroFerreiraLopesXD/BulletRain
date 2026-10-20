@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dwo7vnd6n8a4n"]
 
 [ext_resource type="Texture2D" uid="uid://7h270l65vmsb" path="res://Assets/Assets_Bee_Game/enemy/0000.png" id="1_lbl86"]
+[ext_resource type="Script" uid="uid://6ongdg1bu8f6" path="res://Scipts/inimigo.gd" id="1_lly7b"]
 [ext_resource type="Texture2D" uid="uid://dwpw3b817ggwd" path="res://Assets/Assets_Bee_Game/enemy/0001.png" id="2_lly7b"]
 [ext_resource type="Texture2D" uid="uid://deqrn7h1ny7f1" path="res://Assets/Assets_Bee_Game/enemy/0002.png" id="3_4lccv"]
 [ext_resource type="Texture2D" uid="uid://3j6agi2h7r45" path="res://Assets/Assets_Bee_Game/enemy/0003.png" id="4_qxto5"]
@@ -94,9 +95,11 @@ radius = 31.0
 height = 96.0
 
 [node name="Inimigo" type="Area2D" unique_id=266363617]
+script = ExtResource("1_lly7b")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1440776068]
 sprite_frames = SubResource("SpriteFrames_x4vnt")
+autoplay = "default"
 frame_progress = 0.9040092
 offset = Vector2(-6, 20)
 

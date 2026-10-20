@@ -1,10 +1,12 @@
 [gd_scene format=3 uid="uid://btgoekc7vrdv4"]
 
+[ext_resource type="Script" uid="uid://lrve3oce2cf6" path="res://Scipts/tela_teste.gd" id="1_556a7"]
 [ext_resource type="PackedScene" uid="uid://c0p3rdaukxje8" path="res://Scenes/player.tscn" id="1_ksgo8"]
 [ext_resource type="Texture2D" uid="uid://dn2iyfrnucvd3" path="res://Assets/Assets_Bee_Game/item/teia.png" id="2_xg0vr"]
 [ext_resource type="PackedScene" uid="uid://dwo7vnd6n8a4n" path="res://Scenes/inimigo.tscn" id="3_nxo1p"]
 
 [node name="TelaTeste" type="Node2D" unique_id=500254630]
+script = ExtResource("1_556a7")
 
 [node name="Player" parent="." unique_id=758258500 instance=ExtResource("1_ksgo8")]
 position = Vector2(253, 526)
@@ -18,3 +20,4 @@ z_index = 4096
 texture = ExtResource("2_xg0vr")
 
 [node name="Inimigo" parent="." unique_id=266363617 instance=ExtResource("3_nxo1p")]
+position = Vector2(256, 65)
