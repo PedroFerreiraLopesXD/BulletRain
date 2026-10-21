@@ -2,6 +2,9 @@ extends CharacterBody2D
 
 var limite_tela = 40
 
+func _ready() -> void:
+	Global.player_morreu.connect(morrer)
+
 func _process(delta: float) -> void:
 	var tamanho_tela = get_viewport_rect().size
 	var direcao = Vector2.ZERO
@@ -19,3 +22,13 @@ func _process(delta: float) -> void:
 		position.y = get_viewport_rect().size.y - limite_tela
 
 	translate(direcao * Global.player_velocidade)
+
+func ativar_metralhadora() -> void:
+	$som_metralhadora.play()
+
+func som_favomel():
+	$som_favomel.play(0.5)
+
+func morrer() -> void:
+	Global.resetar()
+	get_tree().reload_current_scene()

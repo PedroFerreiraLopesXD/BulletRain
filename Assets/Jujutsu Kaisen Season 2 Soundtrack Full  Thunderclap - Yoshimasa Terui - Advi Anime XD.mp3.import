@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d3hpkolly61ff"
+path="res://.godot/imported/Jujutsu Kaisen Season 2 Soundtrack Full  Thunderclap - Yoshimasa Terui - Advi Anime XD.mp3-99696a3aaa588598ab4cdafe4036750f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Jujutsu Kaisen Season 2 Soundtrack Full  Thunderclap - Yoshimasa Terui - Advi Anime XD.mp3"
+dest_files=["res://.godot/imported/Jujutsu Kaisen Season 2 Soundtrack Full  Thunderclap - Yoshimasa Terui - Advi Anime XD.mp3-99696a3aaa588598ab4cdafe4036750f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

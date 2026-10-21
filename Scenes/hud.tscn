@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://bjsjrr2cyd4lh"]
+
+[ext_resource type="Texture2D" uid="uid://m6ssaiwxho0h" path="res://Assets/Assets_Bee_Game/item/vida.png" id="1_6fbih"]
+[ext_resource type="Script" uid="uid://bgu0o1wvk2krj" path="res://Scipts/hud.gd" id="1_t1xeu"]
+[ext_resource type="Texture2D" uid="uid://cm8px56if5cyl" path="res://Assets/Assets_Bee_Game/item/pause.png" id="2_t1xeu"]
+[ext_resource type="Texture2D" uid="uid://jnx5gebqygfw" path="res://Assets/Assets_Bee_Game/item/play.png" id="3_36asn"]
+[ext_resource type="Texture2D" uid="uid://bobxcr5ltpgg1" path="res://Assets/Assets_Bee_Game/item/quit.png" id="4_8jye8"]
+
+[node name="HUD" type="Node2D" unique_id=1382664483]
+script = ExtResource("1_t1xeu")
+
+[node name="vida_01" type="Sprite2D" parent="." unique_id=1732496836]
+position = Vector2(122, 49)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_6fbih")
+
+[node name="vida_02" type="Sprite2D" parent="." unique_id=1767665238]
+position = Vector2(74, 50)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_6fbih")
+
+[node name="vida_03" type="Sprite2D" parent="." unique_id=1566582981]
+position = Vector2(28, 50)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_6fbih")
+
+[node name="vidas" type="Label" parent="." unique_id=573253292]
+offset_left = 11.0
+offset_top = 2.0
+offset_right = 61.0
+offset_bottom = 30.0
+text = "VIDAS"
+
+[node name="pontos" type="Label" parent="." unique_id=248703040]
+offset_left = 435.0
+offset_top = 3.0
+offset_right = 501.0
+offset_bottom = 26.0
+text = "PONTOS:"
+
+[node name="pontos_valor" type="Label" parent="." unique_id=595235670]
+offset_left = 438.0
+offset_top = 27.0
+offset_right = 478.0
+offset_bottom = 50.0
+text = "0"
+
+[node name="pause" type="TouchScreenButton" parent="." unique_id=571236349]
+position = Vector2(186, -8)
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("2_t1xeu")
+
+[node name="play" type="TouchScreenButton" parent="." unique_id=1740352165]
+process_mode = 3
+visible = false
+position = Vector2(124, 209)
+texture_normal = ExtResource("3_36asn")
+
+[node name="quit" type="TouchScreenButton" parent="." unique_id=1658550487]
+process_mode = 3
+visible = false
+position = Vector2(344, 355)
+scale = Vector2(0.3, 0.3)
+texture_normal = ExtResource("4_8jye8")
+
+[connection signal="pressed" from="pause" to="." method="_on_pause_pressed"]
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dr47p7x0lqofo"
+path="res://.godot/imported/Metal slug heavy machine gun (sound effect - TSM KUSH.mp3-27df294a397f4b6a3aabd60e03ef8d2e.mp3str"
+
+[deps]
+
+source_file="res://Assets/Metal slug heavy machine gun (sound effect - TSM KUSH.mp3"
+dest_files=["res://.godot/imported/Metal slug heavy machine gun (sound effect - TSM KUSH.mp3-27df294a397f4b6a3aabd60e03ef8d2e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

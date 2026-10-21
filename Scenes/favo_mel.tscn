@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://b6rmhh7pv0tgl"]
+
+[ext_resource type="Script" uid="uid://c5kxi2n7v0ptm" path="res://Scipts/favo_mel.gd" id="1_qgmm3"]
+[ext_resource type="Texture2D" uid="uid://dxq3uqwjbolmh" path="res://Assets/Assets_Bee_Game/item/item.png" id="2_c3l2s"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_rk7un"]
+radius = 51.62364
+
+[node name="favo_mel" type="Area2D" unique_id=1991154366]
+script = ExtResource("1_qgmm3")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=133760741]
+position = Vector2(-8, 11)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_c3l2s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1044569073]
+position = Vector2(-5, 8)
+scale = Vector2(0.3, 0.3)
+shape = SubResource("CircleShape2D_rk7un")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
