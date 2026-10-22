@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://xirh7y731r6s"
+path="res://.godot/imported/Re Zero Return By Death Sfx - sfx channel.mp3-9270c3cfb719c5cd481c517cf2ddf3fe.mp3str"
+
+[deps]
+
+source_file="res://Assets/Re Zero Return By Death Sfx - sfx channel.mp3"
+dest_files=["res://.godot/imported/Re Zero Return By Death Sfx - sfx channel.mp3-9270c3cfb719c5cd481c517cf2ddf3fe.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

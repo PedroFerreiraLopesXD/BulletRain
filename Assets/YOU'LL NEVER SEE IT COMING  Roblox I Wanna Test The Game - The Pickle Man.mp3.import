@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://g4topmw2rk80"
+path="res://.godot/imported/YOU'LL NEVER SEE IT COMING  Roblox I Wanna Test The Game - The Pickle Man.mp3-dda75af9483291d0348e546079a4b84c.mp3str"
+
+[deps]
+
+source_file="res://Assets/YOU'LL NEVER SEE IT COMING  Roblox I Wanna Test The Game - The Pickle Man.mp3"
+dest_files=["res://.godot/imported/YOU'LL NEVER SEE IT COMING  Roblox I Wanna Test The Game - The Pickle Man.mp3-dda75af9483291d0348e546079a4b84c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

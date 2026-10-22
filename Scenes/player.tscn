@@ -21,8 +21,8 @@
 [ext_resource type="Texture2D" uid="uid://bgawu1cuvsr80" path="res://Assets/Assets_Bee_Game/player/0018.png" id="18_8gxox"]
 [ext_resource type="Texture2D" uid="uid://bvbtj41sfij1j" path="res://Assets/Assets_Bee_Game/player/0019.png" id="19_11gg7"]
 [ext_resource type="AudioStream" uid="uid://catm6w66v2i4e" path="res://Assets/I Got This sound effect - Meme Sound FX.mp3" id="21_olqyp"]
-[ext_resource type="AudioStream" uid="uid://d3hpkolly61ff" path="res://Assets/Jujutsu Kaisen Season 2 Soundtrack Full  Thunderclap - Yoshimasa Terui - Advi Anime XD.mp3" id="22_wpjfl"]
-[ext_resource type="AudioStream" uid="uid://dr47p7x0lqofo" path="res://Assets/Metal slug heavy machine gun (sound effect - TSM KUSH.mp3" id="23_bi64h"]
+[ext_resource type="AudioStream" uid="uid://b46jhjcxxgq17" path="res://Assets/The Long Faces - Jane! (Lyrics) - BangersOnly.mp3" id="22_bi64h"]
+[ext_resource type="AudioStream" uid="uid://xirh7y731r6s" path="res://Assets/Re Zero Return By Death Sfx - sfx channel.mp3" id="23_bi64h"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_v0iea"]
 animations = [{
@@ -105,19 +105,23 @@ offset = Vector2(-6, 0)
 metadata/_edit_lock_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=452153341]
+scale = Vector2(0.3126835, 0.48180217)
 shape = SubResource("CapsuleShape2D_fs7ks")
 debug_color = Color(1, 0, 0.24705882, 0.41960785)
-metadata/_edit_lock_ = true
 
 [node name="som_favomel" type="AudioStreamPlayer2D" parent="." unique_id=2072300963]
 stream = ExtResource("21_olqyp")
 pitch_scale = 1.4
 
 [node name="Musica" type="AudioStreamPlayer2D" parent="." unique_id=17645915]
-stream = ExtResource("22_wpjfl")
-pitch_scale = 1.2
+scale = Vector2(1, 0.23999977)
+stream = ExtResource("22_bi64h")
+pitch_scale = 0.9
 autoplay = true
 parameters/looping = true
 
 [node name="som_metralhadora" type="AudioStreamPlayer2D" parent="." unique_id=254935980]
+scale = Vector2(1, 1.1599997)
+
+[node name="deathsound" type="AudioStreamPlayer2D" parent="." unique_id=124807924]
 stream = ExtResource("23_bi64h")

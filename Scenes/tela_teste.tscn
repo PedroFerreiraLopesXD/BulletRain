@@ -24,3 +24,4 @@ position = Vector2(256, 65)
 
 [node name="HUD" parent="." unique_id=1382664483 instance=ExtResource("5_43gh4")]
 z_index = 4096
+position = Vector2(0, -5)

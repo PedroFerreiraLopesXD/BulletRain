@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dhbusnj0qdq8v"
+path="res://.godot/imported/Clarion - Hello Juliet - Doskalibur.mp3-a521699e87ad8728e59f762c73e0bf6a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Clarion - Hello Juliet - Doskalibur.mp3"
+dest_files=["res://.godot/imported/Clarion - Hello Juliet - Doskalibur.mp3-a521699e87ad8728e59f762c73e0bf6a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

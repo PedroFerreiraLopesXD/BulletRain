@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bbxuxcvpnwjde"
+path="res://.godot/imported/SINAMOTO - YOUNG GIRL A (SLOWED + REVERB) GOHAN FUTURO EDIT - Zeta Z.mp3-f2ed3514bd095e9284949152038ca684.mp3str"
+
+[deps]
+
+source_file="res://Assets/SINAMOTO - YOUNG GIRL A (SLOWED + REVERB) GOHAN FUTURO EDIT - Zeta Z.mp3"
+dest_files=["res://.godot/imported/SINAMOTO - YOUNG GIRL A (SLOWED + REVERB) GOHAN FUTURO EDIT - Zeta Z.mp3-f2ed3514bd095e9284949152038ca684.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

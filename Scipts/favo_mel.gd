@@ -11,4 +11,5 @@ func _on_body_entered(body: CharacterBody2D) -> void:
 	if body.name == "Player":
 		body.som_favomel()
 		Global.pontuar(1)
+		Global.player_vidas += 1
 		queue_free()
