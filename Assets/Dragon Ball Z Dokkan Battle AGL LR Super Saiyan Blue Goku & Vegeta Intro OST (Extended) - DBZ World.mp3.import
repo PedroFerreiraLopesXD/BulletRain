@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://pxypttt0drc1"
+path="res://.godot/imported/Dragon Ball Z Dokkan Battle AGL LR Super Saiyan Blue Goku & Vegeta Intro OST (Extended) - DBZ World.mp3-defb09097ca221617b875ef9047c12ce.mp3str"
+
+[deps]
+
+source_file="res://Assets/Dragon Ball Z Dokkan Battle AGL LR Super Saiyan Blue Goku & Vegeta Intro OST (Extended) - DBZ World.mp3"
+dest_files=["res://.godot/imported/Dragon Ball Z Dokkan Battle AGL LR Super Saiyan Blue Goku & Vegeta Intro OST (Extended) - DBZ World.mp3-defb09097ca221617b875ef9047c12ce.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

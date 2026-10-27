@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dserp6rvuiasa"
+path="res://.godot/imported/28. Broly Vs Gogeta Theme Song Full  DBS Broly Original Soundtrack - Saiyan Rangers.mp3-2eebde2fc86d2ddbda2e4a8bbbd95932.mp3str"
+
+[deps]
+
+source_file="res://Assets/28. Broly Vs Gogeta Theme Song Full  DBS Broly Original Soundtrack - Saiyan Rangers.mp3"
+dest_files=["res://.godot/imported/28. Broly Vs Gogeta Theme Song Full  DBS Broly Original Soundtrack - Saiyan Rangers.mp3-2eebde2fc86d2ddbda2e4a8bbbd95932.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
