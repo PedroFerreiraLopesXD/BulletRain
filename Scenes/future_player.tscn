@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://cy5p0uuhaerj3"]
+
+[ext_resource type="Script" uid="uid://bhoydq4j8vrky" path="res://Scipts/future_player.gd" id="1_m1vqd"]
+[ext_resource type="Texture2D" uid="uid://elagqjdvuxvf" path="res://Assets/gokuSSJblue-removebg-preview.png" id="1_q3mbq"]
+[ext_resource type="AudioStream" uid="uid://pxypttt0drc1" path="res://Assets/Dragon Ball Z Dokkan Battle AGL LR Super Saiyan Blue Goku & Vegeta Intro OST (Extended) - DBZ World.mp3" id="3_0jgeb"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1su81"]
+radius = 14.0
+height = 84.0
+
+[node name="FuturePlayer" type="CharacterBody2D" unique_id=264663953]
+script = ExtResource("1_m1vqd")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=404380884]
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_q3mbq")
+
+[node name="FutureCollision" type="CollisionShape2D" parent="." unique_id=339471425]
+position = Vector2(-1, 21)
+shape = SubResource("CapsuleShape2D_1su81")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=73933389]
+stream = ExtResource("3_0jgeb")
+autoplay = true
+parameters/looping = true

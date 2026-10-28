@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dsyv7pfmqd0nx"]
+
+[ext_resource type="Texture2D" uid="uid://u4thpbld6878" path="res://Assets/future.png" id="1_mkxf0"]
+[ext_resource type="Script" uid="uid://co46dy4uq4sfn" path="res://Scipts/future_scenario.gd" id="1_wgy82"]
+[ext_resource type="PackedScene" uid="uid://cy5p0uuhaerj3" path="res://Scenes/future_player.tscn" id="2_ss6wh"]
+
+[node name="FutureScene" type="Node2D" unique_id=1188358205]
+script = ExtResource("1_wgy82")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1324728713]
+position = Vector2(239, 372)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("1_mkxf0")
+
+[node name="FuturePlayer" parent="." unique_id=264663953 instance=ExtResource("2_ss6wh")]
+position = Vector2(248, 654)

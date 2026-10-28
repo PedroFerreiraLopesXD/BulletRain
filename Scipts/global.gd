@@ -4,7 +4,7 @@ signal player_morreu
 signal metralhadora_liberada
 
 var player_velocidade = 10
-var player_vidas = 2222222222
+var player_vidas = 222222222
 var pontos = 0
 var tem_metralhadora
 
